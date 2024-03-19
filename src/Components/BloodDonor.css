@@ -1,0 +1,105 @@
+/* DonorInformation.css */
+
+.donor-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Example font-family */
+    background-color: #e9f3fb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donor-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .donor-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .donor-select,
+  .donor-button {
+    margin-bottom: 16px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+  }
+  
+  .donor-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .donor-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .donor-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .donor-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donor-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .donor-hospital-info h3 {
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .donor-hospital-info p {
+    margin: 0;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .donor-container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .donor-img {
+      width: 80px;
+      height: 80px;
+      margin-right: 15px;
+    }
+  
+    .donor-item {
+      margin-bottom: 10px;
+    }
+  
+    .donor-heading {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .donor-label,
+    .donor-select,
+    .donor-button {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+  
+  
